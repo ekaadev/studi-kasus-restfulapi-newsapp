@@ -1,0 +1,35 @@
+### GET request to
+GET http://localhost:3000
+
+### POST request to
+POST http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "Clean Architecture Golang",
+  "description": "Begini caranya membuat clean architecture di bahasa pemrograman golang"
+}
+
+### PUT request to
+PUT localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 0,
+  "title": "3 Extension VSCode yang membantu produktifitas",
+  "description": "Vscode adalah code editor yang membantu programmer untuk membuat sebuah code, inilang 3 extension yang dapat membantu produktifitas"
+}
+
+### DELETE request to
+DELETE localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": "1"
+}
+
+
+
